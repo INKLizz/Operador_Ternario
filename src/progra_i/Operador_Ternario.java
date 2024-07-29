@@ -29,6 +29,7 @@ public class Operador_Ternario {
         //VALORES CONSTANTES
         String fruta;
         
+        System.out.println("Es la fruta una manzana?");
         System.out.println("Ingrese una fruta.");
         fruta = scan.next().toLowerCase();
         
@@ -39,7 +40,8 @@ public class Operador_Ternario {
         //Variables
         int numero_1, numero_2;
         
-        System.out.println("\nIngrese un numero: ");
+        System.out.println("\nNumero es mayor o menor?");
+        System.out.println("Ingrese un numero: ");
         numero_1 = scan.nextInt();
         System.out.println("Ingrese otro numero: ");
         numero_2 = scan.nextInt();
@@ -49,7 +51,9 @@ public class Operador_Ternario {
 
         //Con formulas
         int numero_a, numero_b;
-        System.out.println("\nIngrese un numero: ");
+        
+        System.out.println("\nSi ambos numeros son iguales multiplicar de contrario dividir.");
+        System.out.println("Ingrese un numero: ");
         numero_a = scan.nextInt();
         System.out.println("Ingrese un segundo numero: ");
         numero_b = scan.nextInt();
