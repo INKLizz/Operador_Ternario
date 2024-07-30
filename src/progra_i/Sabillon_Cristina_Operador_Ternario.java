@@ -8,7 +8,7 @@ import java.util.Scanner;
  *
  * @author Laura Sabillon
  */
-public class Operador_Ternario {
+public class Sabillon_Cristina_Operador_Ternario {
 
     /**
      * @param args the command line arguments
